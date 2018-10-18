@@ -1,0 +1,16 @@
+{
+  "name": "mongodb-appengine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "gcloud app deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.1.8",
+    "nconf": "^0.10.0"
+  }
+}
